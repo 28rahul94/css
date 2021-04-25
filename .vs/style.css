@@ -3,9 +3,33 @@ body {
 }
 h1 {
   color: white;
-  text-align: white;
 }
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
+  color: red;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+#para1 {
+  background-color: yellow;
+}
+
+.para2 {
+  background-color: turquoise;
+}
+
+p.colorgreen {
+  color: green;
+}
+p.center {
+  text-align: center;
+}
+
+p.large {
+  font-size: 300%;
 }
